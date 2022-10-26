@@ -1,17 +1,10 @@
-$main-font: sharetechmono;
+$main-font: 'Share Tech Mono', monospace;
 
-.header {
-    position:sticky;
-    margin-bottom: 20px;
-
+* {
+    font-family: $main-font;
+   
 }
 
-.container {
-    margin: 5px;
-}
-
-.carousel-inner {
-    max-width: 1500px;
-    width: 100%;
-    min-height: 600px;
+.body {
+    background-color: black;
 }
